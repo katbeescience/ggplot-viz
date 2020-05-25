@@ -19,7 +19,7 @@ library(png)
 
 # Load in the data:
 
-avocado <- read.csv(file="./avocado.csv")
+avocado <- read.csv(file="avocado.csv")
 
 # To look at the features of this dataset, type the following in your console.
 
