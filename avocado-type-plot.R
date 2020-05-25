@@ -19,7 +19,7 @@ avocado <- read.csv(file="avocado.csv")
 # Clean up data a bit for plotting.
 
 phoenix <- avocado %>%
-  filter(region=="PhoneixTucson") %>%
+  filter(region=="PhoenixTucson") %>%
   select(Date, "hass.small" = 'X4046',
          "hass.large" = 'X4225',
          "hass.x.large" = 'X4770') %>%
@@ -58,5 +58,3 @@ avo.plot.o <- ggplot(data=phoenix, mapping=aes(x=PLU, y=Amount, fill=PLU)) +
 ggsave(plot = avo.plot.o,
        filename="avocado-type-plot.png",
        width=6, height=6, units="in")
-
-# Cool! It looks like people in southern Arizona buy the small avocados most.
