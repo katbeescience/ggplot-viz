@@ -2,7 +2,6 @@
 Materials from my ggplot workshop, ResBaz 2020 and 2021
 
 Beautiful plots with ggplot2
-Resbaz Arizona Conference: Monday, May 25th, 2020 9:00-11:00
 
 Back to Resbaz List of HackMDs
 
